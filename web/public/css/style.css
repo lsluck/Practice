@@ -1,0 +1,155 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header{ 
+  width: 100%;
+  background-color: #1e88f3;
+ } 
+.top{
+  padding-top: .2rem;
+  width: 100%;
+  display: flex;
+  margin: .2rem;
+}
+.top span:nth-child(2){
+  margin-left: .7rem;
+  margin-right: .7rem;
+}
+#huatong{
+  position: absolute;
+  top:.2rem;
+  left:5.60rem;
+}
+.nav{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.nav li{
+  flex-grow: 1;
+  margin-left: .7rem;
+  list-style: none;
+
+}
+
+.nav li .mui-icon{
+ font-size: 1rem;
+}
+#sao{
+  width: .3rem;
+  height: .3rem;
+  color: aliceblue;
+}
+#p{
+  color: aliceblue;
+}
+.icon{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.one{
+  width: 2rem;
+  height: 2rem;
+  margin-top: .2rem;
+  margin-left: .4rem;
+  flex-grow: 1;
+  text-align: center;
+}
+.one img{
+  width: 1rem;
+  height: 1rem;
+
+}
+.middle,.middletwo{
+  background-color: white;
+  border-bottom: .01rem solid #e3e3e3;
+}
+.banner{
+  display: flex;
+  justify-content: flex-start;
+}
+.banner>div{
+  flex-grow: 1;
+}
+.time{
+  color: #e3e3e3;
+}
+.yizhifu{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+}
+.fu{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  border-left: .01rem solid #e3e3e3;
+}
+.lefty{
+  flex-grow: 1;
+
+}
+.leftyizhifu,.rightyizhifu{
+  float: left;
+}
+.rightyizhifu img{
+  width: 2rem;
+  height: 2rem;
+  margin-left:.1rem;
+  
+}
+.leftyizhifu h5{
+  font-weight: bold;
+  color: black;
+}
+.p p{
+  color: black;
+  padding-left: 0.2rem;
+  border-left:.1rem solid blue;
+  
+}
+.bottom{
+  background-color: white;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.bottomleft{
+padding-top: 1rem;
+  float: left;
+  background-color: white;
+}
+.bottomleft img{
+  width: .5rem;
+  height: .5rem;
+}
+.bottomleft h5{
+font-size: 18px;
+ font-weight: bold;
+  color: black;
+  margin-left: 1.3rem;
+}
+.bottomleft p,button{
+  margin-left: 1.3rem;
+}
+.bottomleft button{
+  border-color :#46a3ff;
+  color: #46a3ff;
+  background-color: #ecf5ff;
+}
+.bottomright span{
+  font-size: .14rem;
+  padding-bottom:1rem;
+}
+.bottomright{
+  float: right;
+  background-color: white;
+}
